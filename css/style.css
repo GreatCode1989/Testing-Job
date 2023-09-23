@@ -184,3 +184,85 @@ left: 510px;
 bottom: 650px;
 cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  
+  .container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); 
+  }
+
+  .grid-item {
+   padding-left: 75px;
+  }
+
+  .btn-grid {
+    left: 390px;
+  }
+
+
+  .text-title {
+    font-size: 2rem; 
+  }
+  
+  .exit {
+    right: 0.5rem; 
+    top: 0.5rem;
+  }
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(19, 18, 18, 0.8);
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.content-popup {
+  width: 100%;
+  max-width: 100%; 
+  max-height: 100%; 
+  border-radius: 5px;
+  background: #fff;
+  padding: 1rem;
+  overflow-y: auto;
+  left: 0px;
+  
+}
+
+.img-big {
+  max-width: 715px;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.img-small {
+  padding-left: 1px;
+}
+
+.text-title {
+  font-size: 2rem; 
+}
+
+.title-s {
+  font-size: 1.5rem; 
+}
+
+.title-pop {
+  font-size: 1rem; 
+  margin-bottom: 1rem; 
+}
+
+
+.exit {
+  position: absolute;
+ left: 200px;
+
+}
+
+}
